@@ -1,3 +1,4 @@
+/* Entire Page styles begin */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -12,6 +13,17 @@ p {
     font-size: 16px;
 }
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* Entire Page styles End */
+
 /* <header> styles begin */
 header {
     padding: 20px;
@@ -20,7 +32,7 @@ header {
     color: #ffffff;
 }
 
-h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
@@ -50,7 +62,9 @@ header ul li a {
     color: #ffffff;
     text-decoration: none;
 }
+/* <header> styles End */
 
+/* Hero styles Begin */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,18 +73,9 @@ header ul li a {
     background-size: cover;
     background-position: center;
 }
+/* Hero styles End */
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-/* Content Section Sytle */
+/* Content Section Sytle Begin */
 .content {
     width: 75%;
     display: inline-block;
@@ -94,7 +99,9 @@ header ul li a {
 .content img {
     max-height: 200px;
 }
+/* Content Section Sytle End */
 
+/* Benefits Section Sytle Begin */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -121,14 +128,17 @@ header ul li a {
     margin: 10px auto;
     max-width: 150px;
 }
+/* Benefits Section Sytle End */
 
-.footer {
+/* Footer Section Sytle Begin */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
+/* Footer Section Sytle End */
